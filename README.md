@@ -3,7 +3,10 @@
 以Baichuan2-7B-Base作为基座模型<br>
 使用Daizhige和CLUECorpusSmall作为语料进行增量预训练，对不同数据配比进行了探索<br>
 开源了1：1，1：2和1：5三个版本的LoRA权重，需要和基座模型进行合并<br>
-#### 特别注意：基座模型需要使用LLaMAfied的Baichuan2模型，且不支持直接推理，请进行SFT后再进行推理
+#### 特别注意
+- 基座模型需要使用LLaMAfied的Baichuan2模型
+- 不支持直接推理，请进行SFT后再进行推理
+- 克隆本仓库需要LFS
 
 ### 配置LLaMA-Factory
 ```
